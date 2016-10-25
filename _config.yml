@@ -1,0 +1,48 @@
+# Site settings
+title: Hack Swjtu
+description: "Fuck Swjtu Everything" 
+baseurl: "" # the subpath of your site
+url: "https://hackswjtu.github.io/"
+
+# User settings
+username: Hack Swjtu 
+user_title: Hack Swjtu
+email: lorem.lorem@ipsum.com
+twitter_username: 
+github_username:  
+gplus_username:  
+disqus_username: 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: HaRunGo  
+    url: https://github.com/HackSwjtu/HackRunningGo-SC
+  - name: HackSwjtuXZ 
+    url: https://github.com/HackSwjtu/HackSwjtuXZ 
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
