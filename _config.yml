@@ -30,13 +30,9 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: my posts
+  - title: post
     url: /posts
-  - title: series
-    url: /series
-  - title: tags
-    url: /tags
-  - title: about me
+  - title: about us
     url: /about
 # projects in header index
 projects:
