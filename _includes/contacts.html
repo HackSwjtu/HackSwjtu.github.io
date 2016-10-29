@@ -1,0 +1,33 @@
+<head>
+  <link rel="stylesheet" href="/assets/css/contacts.css">
+</head>
+
+<div>
+  <div class="member-list">
+    {% for people in site.data.members %}
+      <div class="member-list-item">
+        <div class="member-simple">
+          <img src="{{ people.headimg | xml_escape }}">
+        </div>
+        <div class="member-simple">
+          <strong class="member-name">{{ people.name | xml_escape }}</strong>
+        </div>
+        <div class="member-detail">
+          <div class="member-card">
+            <div class="member-card-contacts">
+              <div class="member-title">GitHub</div>
+              <div class="member-content"><a href="https://github.com/{{ people.github | cgi_escape }}">{{ people.github | xml_escape }}</a></div>
+              <div class="member-title">E-mail</div>
+              <div class="member-content"><a href="mailto:{{ people.email | cgi_escape }}">{{ people.email | xml_escape }}</a></div>
+              <div class="member-title">Technology Stack</div>
+              {% for stack in people.technology_stack %}
+                <div class="member-content" style="display: inline-block">{{ stack | xml_escape }}</div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+

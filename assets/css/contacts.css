@@ -1,0 +1,133 @@
+.member-list-item
+{
+  display: inline-block;
+  width: 148px;
+  height: 186px;
+  margin: 15px;
+  padding: 0px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.member-simple
+{
+  display: block;
+  text-align: center;
+}
+
+.member-detail
+{
+  padding: 0;
+  display: none;
+}
+
+.member-name
+{
+  color: #888;
+  text-shadow: 1px 1px 2px #ddd;
+  font-size: 18px;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+.member-simple img
+{
+  width: 128px;
+  height: 128px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0 0, rgba(0, 0, 0, 0.25) 2px 5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0) 0 0 0 0, rgba(0, 0, 0, 0.25) 2px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0) 0 0 0 0, rgba(0, 0, 0, 0.25) 2px 5px 5px;
+}
+
+.member-list-item:hover .member-detail
+{
+  display: block;
+}
+
+.member-card
+{
+  position: relative;
+  left: -25px;
+  top: 0;
+  width: 200px;
+  height: auto;
+  padding: 0;
+}
+
+.member-card-contacts
+{
+  width: inherit;
+  height: inherit;
+  float:left;
+  background: #300a24;
+  padding: 15px 25px 50px 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #161718;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+
+.member-card-contacts:hover
+{
+  box-shadow: 0px 0px 0px 0px #171618;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+.member-title
+{
+  font-weight: bold;
+  color: #eee;
+  font-size: 13px;
+  text-align: left;
+  font-family: verdana;
+  font-family: verdana, "黑体", sans-serif;
+  padding-top: 10px;
+}
+
+.member-content
+{
+  color: #999;
+  font-size: 0.8em;
+  text-align: left;
+  padding-left: 5px;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+
+.member-content a
+{
+  color: #999;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.member-content a:hover
+{
+  color: #c9c;
+  margin-left: 5px;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
