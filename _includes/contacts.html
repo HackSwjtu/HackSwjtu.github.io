@@ -19,7 +19,7 @@
               <div class="member-content"><a href="https://github.com/{{ people.github_id | cgi_escape }}">{{ people.github | xml_escape }}</a></div>
               <div class="member-title">E-mail</div>
               <div class="member-content"><a href="mailto:{{ people.email | cgi_escape }}">{{ people.email | xml_escape }}</a></div>
-              {% if people.blog!="none" %}
+              {% if people.blog %}
                   <div class="member-title">Blog</div>
                   <div class="member-content"><a href="http://{{ people.blog | cgi_escape }}">{{ people.blog | xml_escape }}</a></div>
               {% endif %}
