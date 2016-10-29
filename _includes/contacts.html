@@ -6,7 +6,7 @@
   <div class="member-list">
     {% for people in site.data.members %}
       <div class="member-list-item">
-        <div class="member-simple">
+        <div class="member-simple member-headimg">
           <img src="{{ people.headimg | xml_escape }}">
         </div>
         <div class="member-simple">
@@ -20,7 +20,7 @@
               <div class="member-title">E-mail</div>
               <div class="member-content"><a href="mailto:{{ people.email | cgi_escape }}">{{ people.email | xml_escape }}</a></div>
                 <div class="member-title">Blog</div>
-                <div clas="member-content"><a href="http://{{ people.blog }}">{{ people.blog | cgi_escape }}</a></div>
+                <div class="member-content"><a href="http://{{ people.blog | cgi_escape }}">{{ people.blog | xml_escape }}</a></div>
               <div class="member-title">Technology Stack</div>
               {% for stack in people.technology_stack %} <br/>
                 <div class="member-content" style="display: inline-block">{{ stack | xml_escape }}</div>
