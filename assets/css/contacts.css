@@ -142,6 +142,8 @@
 {
   color: #999;
   text-decoration: none;
+  border: none;
+  background: none;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
   -o-transition: 0.5s ease;
@@ -152,6 +154,8 @@
 .member-content a:hover
 {
   color: #c9c;
+  border: none;
+  background: none;
   margin-left: 5px;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
