@@ -23,15 +23,15 @@
     - Sleeping
 
 - name: llz
-  headimg: https://avatars2.githubusercontent.com/u/17755504?v=3&s=96
+  headimg: https://avatars3.githubusercontent.com/u/17755504
   github: lianglanzheng
-  github_id: abc
+  github_id: lianglanzheng
   email: llz@hackswjtu.com
-  blog: www.swjtu.edu.cn
+  blog: none
   technology_stack:
-    - Sleeping
-    - Eating
-    - Drinking
+    - HTML
+    - CSS
+    - PHP
 
 - name: WangZhe
   headimg: https://avatars3.githubusercontent.com/u/22929722?v=3&s=96
@@ -42,47 +42,3 @@
   technology_stack:
     - C/C++
     - Python
-
-- name: catfishlty
-  headimg: https://avatars0.githubusercontent.com/u/12734411?v=3&s=96
-  github: catfishlty
-  github_id: abc
-  email: dontkonw@hackswjtu.com
-  blog: www.swjtu.edu.cn
-  technology_stack:
-    - 千年测试位置
-    - 谁让你c开头排第一
-    - 数量不够复制几个
-
-- name: catfishlty
-  headimg: https://avatars0.githubusercontent.com/u/12734411?v=3&s=96
-  github: catfishlty
-  github_id: abc
-  email: dontkonw@hackswjtu.com
-  blog: www.swjtu.edu.cn
-  technology_stack:
-    - 千年测试位置
-    - 谁让你c开头排第一
-    - 数量不够复制几个
-
-- name: catfishlty
-  headimg: https://avatars0.githubusercontent.com/u/12734411?v=3&s=96
-  github: catfishlty
-  github_id: abc
-  email: dontkonw@hackswjtu.com
-  blog: www.swjtu.edu.cn
-  technology_stack:
-    - 千年测试位置
-    - 谁让你c开头排第一
-    - 数量不够复制几个
-
-- name: catfishlty
-  headimg: https://avatars0.githubusercontent.com/u/12734411?v=3&s=96
-  github: catfishlty
-  github_id: abc
-  email: dontkonw@hackswjtu.com
-  blog: www.swjtu.edu.cn
-  technology_stack:
-    - 千年测试位置
-    - 谁让你c开头排第一
-    - 数量不够复制几个
