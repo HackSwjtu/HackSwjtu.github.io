@@ -27,7 +27,7 @@
   github: lianglanzheng
   github_id: lianglanzheng
   email: llz@hackswjtu.com
-  blog: none
+  blog: false
   technology_stack:
     - HTML
     - CSS
@@ -38,7 +38,7 @@
   github: WangZhe
   github_id: wzbazinga
   email: wz@hackswjtu.com
-  blog: www.swjtu.edu.cn
+  blog: false
   technology_stack:
     - C/C++
     - Python
