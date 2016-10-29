@@ -42,3 +42,14 @@
   technology_stack:
     - C/C++
     - Python
+
+- name: Jonathan Li
+  headimg: https://avatars2.githubusercontent.com/u/5195830
+  github: Chao Li
+  github_id: minejo
+  email: jonathan@hackswjtu.com
+  blog: blog.jonathan-li.cn
+  technology_stack:
+    - Java
+    - Linux
+    - Python
