@@ -11,15 +11,16 @@
     - Shell
     - Amateur Designer
 
-- name: 笑神
+- name: HandsomeHow
   headimg: https://avatars2.githubusercontent.com/u/22445792?v=3&s=96
   github: HandsomeHow
-  github_id: abc
-  email: unknow@hackswjtu.com
-  blog: www.swjtu.edu.cn
+  github_id: HandsomeHow
+  email: how@hackswjtu.com
+  blog: blog.csdn.net/handsomehow
   technology_stack:
-    - C++
+    - C/C++
     - ACM
+    - Sleeping
 
 - name: llz
   headimg: https://avatars2.githubusercontent.com/u/17755504?v=3&s=96
