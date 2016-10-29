@@ -1,9 +1,9 @@
 .member-list-item
 {
   display: inline-block;
-  width: 148px;
-  height: 186px;
-  margin: 15px;
+  width: 64px;
+  height: 100px;
+  margin: 0 10px 10px 10px;
   padding: 0px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -14,6 +14,7 @@
 
 .member-simple
 {
+  margin: 0 0 5px 0;
   display: block;
   text-align: center;
 }
@@ -28,14 +29,25 @@
 {
   color: #888;
   text-shadow: 1px 1px 2px #ddd;
-  font-size: 18px;
+  font-size: 12px;
   font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
 }
 
-.member-simple img
+.member-headimg
 {
-  width: 128px;
-  height: 128px;
+  height: 64px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.member-headimg img
+{
+  margin: 0;
+  width: 64px;
+  height: 64px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -54,21 +66,27 @@
 .member-card
 {
   position: relative;
-  left: -25px;
-  top: 0;
+  left: -70px;
+  top: -28px;
   width: 200px;
   height: auto;
-  padding: 0;
+  padding: 30px 0 0 0;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .member-card-contacts
 {
   width: inherit;
-  height: inherit;
+  height: auto;
+  min-height: 175px;
   float:left;
   background: #300a24;
-  padding: 15px 25px 50px 25px;
-  border-radius: 10px;
+  padding: 10px 12px 25px 12px;
+  border-radius: 5px;
   box-shadow: 0px 0px 10px 2px #161718;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
@@ -76,6 +94,16 @@
   -ms-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.7;
+}
+
+.member-card:hover
+{
+  top: -80px;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .member-card-contacts:hover
@@ -93,7 +121,7 @@
 {
   font-weight: bold;
   color: #eee;
-  font-size: 13px;
+  font-size: 11px;
   text-align: left;
   font-family: verdana;
   font-family: verdana, "黑体", sans-serif;
@@ -103,7 +131,7 @@
 .member-content
 {
   color: #999;
-  font-size: 0.8em;
+  font-size: 12px;
   text-align: left;
   padding-left: 5px;
   font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
