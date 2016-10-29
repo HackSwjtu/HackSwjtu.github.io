@@ -22,8 +22,8 @@
                 <div class="member-title">Blog</div>
                 <div class="member-content"><a href="http://{{ people.blog | cgi_escape }}">{{ people.blog | xml_escape }}</a></div>
               <div class="member-title">Technology Stack</div>
-              {% for stack in people.technology_stack %} <br/>
-                <div class="member-content" style="display: inline-block">{{ stack | xml_escape }}</div>
+              {% for stack in people.technology_stack %}
+                <div class="member-content">{{ stack | xml_escape }}</div>
               {% endfor %}
             </div>
           </div>
