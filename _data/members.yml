@@ -42,3 +42,13 @@
   technology_stack:
     - C/C++
     - Python
+    
+- name: gyh
+  headimg: https://avatars1.githubusercontent.com/u/17004041
+  github: gyh
+  github_id: gyh1621
+  email: gyh@hackswjtu.com
+  blog: false
+  technology_stack:
+    - C/C++
+    - Python
