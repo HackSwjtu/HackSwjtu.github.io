@@ -1,8 +1,5 @@
 ---
-layout: minimal
-title: "About us"
 permalink: /robots.txt
-description: "Some description about Victor Igor..."
 ---
 
 # robotstxt.org/
