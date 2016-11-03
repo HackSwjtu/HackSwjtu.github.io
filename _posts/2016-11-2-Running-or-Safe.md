@@ -28,7 +28,7 @@ POST http://gxapp.iydsj.com/api/v2/campus/901/get/1/distance/3
 Host: gxapp.iydsj.com
 uid: 47881
 Accept: */*
-Authorization: Basic MTUwODg3MjU1MzU6MTk5NzAyMjZXWGo=
+Authorization: Basic MTRwXBd3MjU1MzU6MTk5NzAyLjZXWGz=
 Proxy-Connection: keep-alive
 osType: 1
 appVersion: 1.2.0
@@ -51,7 +51,7 @@ POST http://gxapp.iydsj.com/api/v2/users/47881/running_records/add
 Host: gxapp.iydsj.com
 uid: 47881
 Accept: */*
-Authorization: Basic MTUwODg3MjU1MzU6MTk5NzAyMjZXWGo=
+Authorization: Basic MTRwXBd3MjU1MzU6MTk5NzAyLjZXWGz=
 Proxy-Connection: keep-alive
 osType: 1
 appVersion: 1.2.0
