@@ -11,7 +11,7 @@ serie: introduce
 
 ![](http://ofmxkmiv3.bkt.clouddn.com/banner.png)
 
-上个礼拜，我们的小组织 [HackSwjtu](https://github.com/HackSwjtu) 破解了 *运动世界校园* 这款 app。与其说是破解 app ，不如说是我们破解了它的网络接口。
+上个礼拜，我们的小组织 [HackSwjtu](https://github.com/HackSwjtu) 破解了 *运动世界校园* 这款 app。与其说是破解 app，不如说是我们破解了它的网络接口。
 
 以下是我们进行这个小项目的全部过程。
 
@@ -245,20 +245,20 @@ Basic [username]:[passward]
 }
 ```
 
-为了保障大家的隐私，我没有展示完整姓名。从获取到的数据中，我们发现 `points` 的格式与我们想要的跑步路线是完全一致的。因此我们对其进行数据解析，并处理时间戳生成我们所需要的数据。进而再将处理过后的数据进行整合，通过上传数据接口对个人用户进行认证，制造一条近乎完美的跑步数据出来。
+为了保护大家的隐私，我没有展示完整姓名。从获取到的数据中，我们发现 `points` 的格式与我们想要的跑步路线是完全一致的。因此我们对其进行数据解析，并处理时间戳生成我们所需要的数据。进而再将处理过后的数据进行整合，通过上传数据接口对个人用户进行认证，制造一条近乎完美的跑步数据出来。
 
 > 其上传数据及处理数据可以阅读我们的上传数据脚本 [HaRunGo](https://github.com/HackSwjtu/HackRunningGo-SC/blob/master/HaRunGo.py)，而对于网络约跑的采点流程可以详见更新静态跑步路线脚本 [updateRoutes.py](https://github.com/HackSwjtu/HackRunningGo-SC/blob/master/updateRoutes.py)
 
 
 ## HackRunningGo-SC Work Flow
 
-我们对于以上的分析及实验进行整合，将所有的工作流程完整的写在了两个 python 脚本中，并且开源以便大家学习、以便学校修正 bug 使用。可以详见我们的 [github repo](https://github.com/HackSwjtu/HackRunningGo-SC)
+我们对于以上的分析及实验进行整合，将所有的工作流程完整的写在了两个 Python 脚本中，并且开源以便大家学习、以便学校修正 bug 使用。可以详见我们的 [GitHub repo](https://github.com/HackSwjtu/HackRunningGo-SC)
 
-如果想尝试使用，请先确保你具有 `python 2.7` 的系统环境，然后依次按照以下流程：
+如果想尝试使用，请先确保你具有 `Python 2.7` 的系统环境，然后依次按照以下流程：
 
 ### 1.clone 我们的 HackRunningGo-SC repo
 
-从 github 上将我们的 repo clone 到本地，并访问 *HackRunningGo-SC* 目录：
+从 GitHub 上将我们的 repo clone 到本地，并访问 *HackRunningGo-SC* 目录：
 
 ```bash
 git clone https://github.com/HackSwjtu/HackRunningGo-SC.git 
@@ -304,11 +304,11 @@ python HaRunGo.py
 
 一旦一块移动客户端 app 与个人的身体信息、聊天信息、财政信息相关联时，就要时刻主要到对于用户信息的保护。从之前的 163 邮箱事件、icloud 相册泄露事件再到最近沸沸扬扬的[雅虎邮寄信息泄露事件](http://usa.people.com.cn/n1/2016/0923/c241376-28735538.html)，网民用户的安全问题日益严峻。而如今的校园跑步软件，没有实名制认证机制可以随意注册，真的太过于裸露。
 
-在斥责开发 app 所在公司的同时，也提醒广大用户多加注意个人隐私的保护，提高个人信息的安全意识，在有法却无严厉监管的环境下我们只有自我提高（这实属无奈之举。）
+在斥责开发 app 所在公司的同时，也提醒广大用户多加注意个人隐私的保护，提高个人信息的安全意识，在有法却无严厉监管的环境下我们只有自我提高。（这实属无奈之举）
 
 ## 写在最后
 
-这篇文章是我们 [HackSwjtu](https://github.com/HackSwjtu) 的第一篇公示技术博文，以此希望 *运动世界校* 的公司 **杭州万航信息科技有限公司** 早日对数据问题进行修复更新，也希望我交大的信息学院在关注学科排名的同时，提升学院技术。
+这篇文章是我们 [HackSwjtu](https://github.com/HackSwjtu) 的第一篇公示技术博文，以此希望 *运动世界校* 的供应商 **杭州万航信息科技有限公司** 早日对数据问题进行修复更新，也希望我交大的信息学院在关注学科排名的同时，提升学院技术。
 
-当然，如果你是 SWJTU 的一名 Hack，或是一名 Geek，并且有志于加入我们的 Github 组织，你可以通过[这个链接](http://www.hackswjtu.com/I-want-you/)，并且按照其中的联系方式联系我。我会及时反馈，并安排线上面试。
+当然，如果你是 SWJTU 的一名 Hack，或是一名 Geek，并且有志于加入我们的 GitHub 组织，你可以通过[这个链接](http://www.hackswjtu.com/I-want-you/)，并且按照其中的联系方式联系我。我会及时反馈，并安排线上面试。
 
