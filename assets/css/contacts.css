@@ -193,11 +193,28 @@
   }
   .member-card:hover
   {
+    top: 200%;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    -o-transition: 2s ease;
+    -ms-transition: 2s ease;
+    transition: 2s ease;
+    transition-delay: 2s;
+    -moz-transition-delay: 2s;
+    -webkit-transition-delay: 2s;
+    -o-transition-delay: 2s;
   }
   .member-card-contacts
   {
+    box-shadow: 0px 0px 0px 0px #171618;
+    opacity: 1;
     min-height: 0px;
     height: inherit;
     padding: 10px 12px 25px 12px;
+  }
+  .member-card-contacts:hover
+  {
+    box-shadow: 0px 0px 10px 2px #161718;
+    opacity: 0.7;
   }
 }
