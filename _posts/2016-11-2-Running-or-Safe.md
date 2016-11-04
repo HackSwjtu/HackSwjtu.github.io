@@ -9,8 +9,6 @@ categories:
 serie: introduce
 ---
 
-![](http://ofmxkmiv3.bkt.clouddn.com/banner.png)
-
 上个礼拜，我们的小组织 [HackSwjtu](https://github.com/HackSwjtu) 破解了 *运动世界校园* 这款 app。与其说是破解 app，不如说是我们破解了它的网络接口。
 
 以下是我们进行这个小项目的全部过程。
@@ -312,3 +310,4 @@ python HaRunGo.py
 
 当然，如果你是 SWJTU 的一名 Hack，或是一名 Geek，并且有志于加入我们的 GitHub 组织，你可以通过[这个链接](http://www.hackswjtu.com/I-want-you/)，并且按照其中的联系方式联系我。我会及时反馈，并安排线上面试。
 
+![](/assets/img/banner.svg)
