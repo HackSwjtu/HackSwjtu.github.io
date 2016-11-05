@@ -176,21 +176,32 @@
     width: 42px;
     height: 42px;
   }
+  .member-name
+  {
+    font-weight: 100;
+  }
   .member-list-item
   {
     width: 58px;
     height: 72px;
     margin: 0 8px 8px 8px;
   }
+  .member-detail
+  {
+    display: block;
+  }
+  .member-list-item:hover .member-card
+  {
+    bottom: 0;
+  }
   .member-card
   {
     position: fixed;
     left: 0;
     top: auto;
-    bottom: 0;
+    bottom: -100%;
     width: 100%;
-    height: 50%;
-    padding: 0px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
   }
   .member-card:hover
   {
@@ -198,8 +209,10 @@
   }
   .member-card-contacts
   {
-    height: 100%;
-    padding: 20px 32px 25px 32px;
+  	box-shadow: 0px 0px 0px 0px #171618;
+  	border-radius: 0 50% 0 0;
+    padding: 20px 32px 50px 32px;
+    opacity: 1;
   }
   .member-title
   {
