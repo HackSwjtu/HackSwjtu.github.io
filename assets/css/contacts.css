@@ -211,6 +211,10 @@
   {
     display: none;
   }
+  .member-card-overlay:active + .member-card
+  {
+    bottom: -100%;
+  }
   .member-list-item:hover .member-card
   {
     bottom: 0;
