@@ -64,18 +64,6 @@
   display: block;
 }
 
-.member-card-overlay
-{
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background:#000;
-  opacity: 0.1;
-}
-
 .member-card
 {
   position: relative;
@@ -202,26 +190,9 @@
   {
     display: block;
   }
-  .member-card-overlay
-  {
-    display: block;
-    top: 100%;
-  }
-  .member-card-overlay:active
-  {
-    display: none;
-  }
-  .member-card-overlay:active + .member-card
-  {
-    bottom: -100%;
-  }
   .member-list-item:hover .member-card
   {
     bottom: 0;
-  }
-  .member-list-item:hover .member-card-overlay
-  {
-    top: 0;
   }
   .member-card
   {
@@ -243,10 +214,6 @@
   	border-radius: 0 100% 0 0;
     padding: 20px 32px 50px 32px;
     opacity: 1;
-  }
-  .member-card-contacts:hover
-  {
-    box-shadow: 0px 0px 20px 5px #171618;
   }
   .member-title
   {
