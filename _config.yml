@@ -41,4 +41,4 @@ projects:
   - name: HackSwjtuXZ 
     url: https://github.com/HackSwjtu/HackSwjtuXZ 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ['package.json', 'src', 'node_modules', 'README.md']
