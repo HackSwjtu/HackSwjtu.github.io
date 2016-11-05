@@ -63,24 +63,13 @@
     - Java
     - Linux
     - Python
-    
-- name: 蔷薇
-  headimg: http://ofsbfjrbr.bkt.clouddn.com/20120815170312_cyZui.jpeg
-  github: qw
-  github_id: Impossibility
-  email: qw@hackswjtu.com
-  blog: false
+
+- name: 智亿
+  headimg: https://avatars1.githubusercontent.com/u/22912414
+  github: zengzhiyi
+  github_id: zengzhiyi
+  email: zengzhiyi@gearblade.com
+  blog: flase
   technology_stack:
-    - C/C++
-  
-- name: Catfish
-  headimg: /assets/img/members/headimg/catfish.jpg
-  github: catfishlty
-  github_id: catfishlty
-  email: catfish@hackswjtu.com
-  blog: www.catfish.top
-  technology_stack:
-    - PHP
-    - Java
-    - Android
-    - C/C++
+    - Python
+
