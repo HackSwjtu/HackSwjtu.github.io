@@ -90,6 +90,6 @@
   github: zengzhiyi
   github_id: zengzhiyi
   email: zengzhiyi@gearblade.com
-  blog: flase
+  blog: false
   technology_stack:
     - Python
