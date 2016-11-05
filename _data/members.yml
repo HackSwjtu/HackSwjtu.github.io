@@ -73,3 +73,14 @@
   technology_stack:
     - C/C++
   
+- name: Catfish
+  headimg: /assets/img/members/headimg/catfish.jpg
+  github: catfishlty
+  github_id: catfishlty
+  email: catfish@hackswjtu.com
+  blog: www.catfish.top
+  technology_stack:
+    - PHP
+    - Java
+    - Android
+    - C/C++
