@@ -93,3 +93,15 @@
   blog: false
   technology_stack:
     - Python
+    
+- name: fdd
+  headimg: /assets/img/members/headimg/fdd.jpg
+  github: ZhouChaofan
+  github_id: ZhouChaofan
+  email: zcf3608@163.com
+  blog: false
+  technology_stack:
+  	- Java
+    - C/C++
+    - Python
+    - Linux
