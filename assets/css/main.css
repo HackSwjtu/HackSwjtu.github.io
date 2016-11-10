@@ -2047,3 +2047,31 @@ footer p
 	text-align: center;
 	margin: 0
 }
+
+.header-center
+{
+	text-align: center;
+}
+
+.header-center-logo-text
+{
+	display: block;
+}
+
+.header-center-logo
+{
+	display: none;
+}
+
+@media only screen and (max-width:500px)
+{
+	.header-center-logo-text
+	{
+		display: none;
+	}
+
+	.header-center-logo
+	{
+		display: block;
+	}
+}
