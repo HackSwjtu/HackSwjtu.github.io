@@ -38,6 +38,8 @@ links:
 projects:
   - name: HaRunGo  
     url: https://github.com/HackSwjtu/HackRunningGo-SC
+  - name: HackSwjtuDeanPK
+    url: https://github.com/HackSwjtu/HackSwjtuDeanPK
   - name: HackSwjtuXZ 
     url: https://github.com/HackSwjtu/HackSwjtuXZ 
 # exclude my node related stuff
