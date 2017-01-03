@@ -116,13 +116,13 @@
     - C/C++
     - html
 
- - name: Qiufeng Wang
- headimg: https://avatars1.githubusercontent.com/u/19143681
- github: Cyberstk
- github_id: Cyberstk
- email: Cyberstk@hackswjtu.com
- blog: http://blog.csdn.net/guhaiteng
- technology_stack:
-   - C/C++
-   - ACM
-   - Keep smiling
+- name: Qiufeng Wang
+  headimg: https://avatars1.githubusercontent.com/u/19143681
+  github: Cyberstk
+  github_id: Cyberstk
+  email: Cyberstk@hackswjtu.com
+  blog: http://blog.csdn.net/guhaiteng
+  technology_stack:
+    - C/C++
+    - ACM
+    - Keep smiling
