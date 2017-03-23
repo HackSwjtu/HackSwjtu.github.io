@@ -16,11 +16,10 @@
   github: HandsomeHow
   github_id: HandsomeHow
   email: how@hackswjtu.com
-  blog: blog.csdn.net/handsomehow
+  blog: handsomehow.com
   technology_stack:
-    - C/C++
-    - ACM
-    - Sleeping
+    - C/Cpp
+    - algorithm
 
 - name: llz
   headimg: https://avatars3.githubusercontent.com/u/17755504
