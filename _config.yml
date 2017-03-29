@@ -36,7 +36,7 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: Posttime
+  - name: Postime
     url: https://github.com/HackSwjtu/Postime
   - name: Clawjtu 
     url: https://github.com/HackSwjtu/weapp-clawjtu 
