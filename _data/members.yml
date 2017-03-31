@@ -125,6 +125,7 @@
     - C/C++
     - ACM
     - Keep smiling
+
 - name: Treamy
   headimg: https://avatars3.githubusercontent.com/u/22903497
   github: DInteresting6
@@ -135,3 +136,14 @@
     - C/C++
     - Python
     - Sleeping
+
+- name: Nianyi Wang
+  headimg: https://avatars1.githubusercontent.com/u/19430435
+  github: WangNianyi2001
+  github_id: WangNianyi2001
+  email: WangNianyi2001@icloud.com
+  blog: false
+  technology_stack:
+    - C/C++
+    - HTML5
+    - C#
