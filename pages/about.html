@@ -9,6 +9,8 @@ description: "Some description about Victor Igor..."
 
 <p>Hackers, SWJTUers, Geekers. </p>
 
+<p>Do what we think it's cool, fuck swjtu everything!</p>
+
 <h2>Members:</h2>
 <div align="center"><div style="max-width: 800px" align="left">{% include contacts.html %}</div></div>
 
@@ -19,7 +21,10 @@ description: "Some description about Victor Igor..."
 <div class="aboutme">
 	<ul class="recent">
 		{% for project in site.projects %}
-	    	<li><a href="{{ project.url}}"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
+	    	<li>
+          <a href="{{ project.url}}"><h3 class="post-title" itemprop="name">{{ project.name }}</h3></a>
+          <p>{{ project.introduce }}</p>
+        </li>
 	    {% endfor %}
 	</ul>
 </div>

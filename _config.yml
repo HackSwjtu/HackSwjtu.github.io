@@ -38,9 +38,12 @@ links:
 projects:
   - name: Postime
     url: https://github.com/HackSwjtu/Postime
+    introduce: 一款带有膜性的 chrome 插件。支持教务网、网络中心、图书馆等免验证码填写，支持一键评价课程等功能。每节省的一秒，让我们续起来！😄
   - name: Clawjtu 
     url: https://github.com/HackSwjtu/weapp-clawjtu 
+    introduce: 【开发中】用于交大讲座及竞赛信息查询的微信小程序。为获取更前沿的科技知识而造，让我们眼界更加开阔。
   - name: 交大瑞士刀 
-    url: https://github.com/wzbazinga/huoshui-swjtu-api 
+    url: http://wangzhe.cloud/swjtu
+    introduce: 成员 WangZhe 大神荣誉出品。用于计算个人保研平均分、保研排名、选课老师挂科率信息、课程总平均分等实用数据。让你更加了解自身成绩，进而弥补自己的不足。 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules', 'README.md']
