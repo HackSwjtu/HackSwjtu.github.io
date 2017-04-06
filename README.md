@@ -1,5 +1,6 @@
 ![Hack SWJTU | center](http://ofsbfjrbr.bkt.clouddn.com/banner.png)
 
+
 ## What do you think of Hackers？
 
 Maybe in many people's minds,h ackers are those who want to hack others' computers and they just do it.We are indeed hackers，but unlike other hackers, we don't make others' computers break down.And just on the contrary, we are supposed to help students in SWJTU. To be honest, Hack Swjtu is better than any teams I have ever seen.
