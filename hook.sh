@@ -2,7 +2,7 @@
 
 cd .git/hooks
 
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
     echo 'I need git proj!(╯‵□′)╯︵┻━┻'
     exit 1
 fi
