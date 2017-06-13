@@ -1,26 +1,28 @@
 <section class="comments">
-    <h3>Comments</h3>
-    <div id="disqus_thread"></div>
+    <div id="container"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 </section>
-<script type="text/javascript">
-    var disqus_loaded = false;
 
-    function load_disqus()
-    {
-        disqus_loaded = true;
-        var disqus_shortname = '{{site.disqus_username}}';
-        var disqus_title = '{{page.title.replace("'", "\\'")}}';
-        var disqus_url = '{{page.url}}';
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        var ldr = document.getElementById('disqus_loader');
-    };
+<script type="text/javascript">
+    var gitment_loaded = false;
+    var gitment = new Gitment({
+  		owner: 'Desgard',
+  		repo: 'HackSwjtu/HackSwjtu.github.io',
+  		oauth: {
+    		client_id: '268cef3468b5191d9627',
+    		client_secret: '1475d9453ad331433f9f4b3ea492edeaa29273b1',
+  		},
+	})
+    function load_gitment(){
+    	gitment_loaded = true
+    	gitment.render('container')
+    }
     window.onscroll = function(e) {
         if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
             //hit bottom of page
-            if (disqus_loaded==false)
-                load_disqus()
+            if (gitment_loaded==false)
+                load_gitment()
         }
     };
 </script>

@@ -1999,8 +1999,7 @@ pre span
 	color: #5d4d7a
 }
 
-.comments
-{
+.comments{
 	*zoom: 1;
 	width: auto;
 	max-width: 50rem;
