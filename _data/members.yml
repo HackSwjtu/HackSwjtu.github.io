@@ -147,3 +147,13 @@
     - C/C++
     - HTML5
     - C#
+- name: suicca
+  headimg: https://avatars3.githubusercontent.com/u/8041462
+  github: suica
+  github_id: suica
+  email: admin@hackswjtu.com
+  blog: blog.csdn.net/lanadeus
+  technology_stack:
+    - C/C++
+    - Front-End
+    - Node.js
