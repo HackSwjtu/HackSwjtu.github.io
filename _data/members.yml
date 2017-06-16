@@ -157,3 +157,13 @@
     - C/C++
     - Front-End
     - Node.js
+
+- name: kinredon
+  headimg: https://avatars1.githubusercontent.com/u/21264784
+  github: kinredon
+  github_id: sourcoder
+  email: kinredon@163.com
+  blog: www.kinredon.com
+  technology_stack:
+    - C/C++
+    - PHP
